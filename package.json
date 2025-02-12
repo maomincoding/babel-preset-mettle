@@ -1,0 +1,31 @@
+{
+  "name": "babel-preset-mettle",
+  "version": "0.0.1",
+  "description": "Babel preset to transform JSX for Mettle.js",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maomincoding/babel-preset-mettle"
+  },
+  "bugs": {
+    "url": "https://github.com/maomincoding/babel-preset-mettle/issues"
+  },
+  "homepage": "https://github.com/maomincoding/babel-preset-mettle#readme",
+  "keywords": [
+    "babel",
+    "babel plugin",
+    "babel-plugin",
+    "mettle",
+    "mettle-js",
+    "babel-preset-mettle"
+  ],
+  "author": "maomincoding",
+  "license": "MIT",
+  "dependencies": {
+    "babel-plugin-jsx-to-mettle": "^0.1.2",
+    "babel-plugin-mettle": "^0.1.2"
+  }
+}
