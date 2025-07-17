@@ -1,10 +1,21 @@
-const babelPluginJsxToMettle = require('babel-plugin-jsx-to-mettle');
-const babelPluginMettle = require('babel-plugin-mettle');
-
 module.exports = function () {
-  const plugins = [[babelPluginJsxToMettle], [babelPluginMettle]];
+  const presets = [
+    [
+      '@babel/preset-env',
+      {
+        modules: false,
+      },
+    ],
+    [
+      '@babel/preset-react',
+      {
+        runtime: 'automatic',
+        importSource: 'mettle-jsx-runtime',
+      },
+    ],
+  ];
 
   return {
-    plugins,
+    presets,
   };
 };
