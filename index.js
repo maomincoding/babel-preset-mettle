@@ -1,3 +1,5 @@
+const babelPluginMettle = require('babel-plugin-mettle');
+
 module.exports = function () {
   const presets = [
     [
@@ -15,7 +17,10 @@ module.exports = function () {
     ],
   ];
 
+  const plugins = [[babelPluginMettle]];
+
   return {
     presets,
+    plugins,
   };
 };
