@@ -29,6 +29,6 @@
     "@babel/preset-env": "^7.28.0",
     "@babel/preset-react": "^7.27.1",
     "@babel/preset-typescript": "^7.27.1",
-    "babel-plugin-mettle": "0.8.0"
+    "babel-plugin-mettle": "0.8.1"
   }
 }
