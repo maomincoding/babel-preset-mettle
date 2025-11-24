@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-mettle",
-  "version": "1.7.7",
+  "version": "1.7.8",
   "description": "Babel preset to transform JSX for Mettle.js",
   "main": "index.js",
   "files": [
@@ -29,6 +29,6 @@
     "@babel/preset-env": "^7.28.0",
     "@babel/preset-react": "^7.27.1",
     "@babel/preset-typescript": "^7.27.1",
-    "babel-plugin-mettle": "0.8.6"
+    "babel-plugin-mettle": "0.9.0"
   }
 }
