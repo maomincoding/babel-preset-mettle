@@ -13,7 +13,7 @@ module.exports = function () {
       '@babel/preset-react',
       {
         runtime: 'automatic',
-        importSource: 'mettle-jsx-runtime',
+        importSource: 'mettle',
       },
     ],
   ];

@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-mettle",
-  "version": "1.8.0",
+  "version": "1.8.1",
   "description": "Babel preset to transform JSX for Mettle.js",
   "main": "index.js",
   "files": [
